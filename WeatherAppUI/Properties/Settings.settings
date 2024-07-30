@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WeatherApp.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="APIKEY_LOCATION" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AIzaSyA_DVQeGcPNqwVa7kUQouXEglpJxshdRW4</Value>
+    </Setting>
+    <Setting Name="APIKEY_IMAGES" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AIzaSyCwrelRTicpN6FI7he5-gxhBo9ZQDEhih4</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

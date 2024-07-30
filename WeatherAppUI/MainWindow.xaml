@@ -1,0 +1,25 @@
+﻿<Window x:Class="WeatherApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vms="clr-namespace:WeatherApp.ViewModels"
+        xmlns:local="clr-namespace:WeatherApp" xmlns:view="clr-namespace:WeatherApp.View"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="800" FontSize="14" SizeToContent="WidthAndHeight">
+    
+    <Grid>
+        <Grid.Resources>
+            <DataTemplate DataType="{x:Type vms:ChooseLocationViewModel}">
+                <view:ChooseLocationView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type vms:ViewWeatherViewModel}">
+                <view:ViewWeatherView/>
+            </DataTemplate>
+        </Grid.Resources>
+         <!--Podatke bi hjemal iz current view model Vse vrednosti ki so bindings bodo pointale na Properties od ChooseLocationViewModel ker je nastavljen kot CrrentViewModel-->
+        <ContentControl Content="{Binding CurrentViewModel}" />
+       
+        
+    </Grid>
+</Window>

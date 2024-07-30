@@ -1,0 +1,103 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\check-circle.png" />
+    <None Remove="Images\clouds %281%29.png" />
+    <None Remove="Images\clouds.png" />
+    <None Remove="Images\cloudy-night.png" />
+    <None Remove="Images\fog.png" />
+    <None Remove="Images\heavy-rain %281%29.png" />
+    <None Remove="Images\heavy-rain.png" />
+    <None Remove="Images\landscape1.jpg" />
+    <None Remove="Images\night.png" />
+    <None Remove="Images\rain-sun.png" />
+    <None Remove="Images\rainy-day.png" />
+    <None Remove="Images\rainy-night.png" />
+    <None Remove="Images\snow-cloud %281%29.png" />
+    <None Remove="Images\snow-cloud.png" />
+    <None Remove="Images\snow-storm.png" />
+    <None Remove="Images\snows.png" />
+    <None Remove="Images\sun-cloud.png" />
+    <None Remove="Images\sunrise.png" />
+    <None Remove="Images\sunset.png" />
+    <None Remove="Images\sunshine.png" />
+    <None Remove="Images\thunderstorm %281%29.png" />
+    <None Remove="Images\thunderstorm %282%29.png" />
+    <None Remove="Images\thunderstorm %283%29.png" />
+    <None Remove="Images\thunderstorm %284%29.png" />
+    <None Remove="Images\thunderstorm %285%29.png" />
+    <None Remove="Images\thunderstorm.png" />
+    <None Remove="Images\warm.png" />
+    <None Remove="Images\warning.png" />
+    <None Remove="Images\water.png" />
+    <None Remove="Images\wind-direction.png" />
+    <None Remove="Images\wind.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.5.0" />
+    <PackageReference Include="GeoTimeZone" Version="5.2.0" />
+    <PackageReference Include="GoogleMaps.LocationServices" Version="1.2.0.5" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="4.0.20710" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.39" />
+    <PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />
+    <PackageReference Include="TimeZoneConverter" Version="6.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\check-circle.png" />
+    <Resource Include="Images\clouds (1).png" />
+    <Resource Include="Images\clouds.png" />
+    <Resource Include="Images\cloudy-night.png" />
+    <Resource Include="Images\fog.png" />
+    <Resource Include="Images\heavy-rain (1).png" />
+    <Resource Include="Images\heavy-rain.png" />
+    <Resource Include="Images\landscape1.jpg" />
+    <Resource Include="Images\night.png" />
+    <Resource Include="Images\rainy-day.png" />
+    <Resource Include="Images\rainy-night.png" />
+    <Resource Include="Images\snow-cloud (1).png" />
+    <Resource Include="Images\snow-cloud.png" />
+    <Resource Include="Images\snow-storm.png" />
+    <Resource Include="Images\snows.png" />
+    <Resource Include="Images\sun-cloud.png" />
+    <Resource Include="Images\rain-sun.png" />
+    <Resource Include="Images\sunrise.png" />
+    <Resource Include="Images\sunset.png" />
+    <Resource Include="Images\sunshine.png" />
+    <Resource Include="Images\thunderstorm (1).png" />
+    <Resource Include="Images\thunderstorm (2).png" />
+    <Resource Include="Images\thunderstorm (3).png" />
+    <Resource Include="Images\thunderstorm (4).png" />
+    <Resource Include="Images\thunderstorm (5).png" />
+    <Resource Include="Images\thunderstorm.png" />
+    <Resource Include="Images\warm.png" />
+    <Resource Include="Images\warning.png" />
+    <Resource Include="Images\water.png" />
+    <Resource Include="Images\wind-direction.png" />
+    <Resource Include="Images\wind.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>
