@@ -1,10 +1,15 @@
+# Weather App
+This is a app to view weather in wanted location. It uses C# WPF and the MVVM architecture.
+
+## Instructions
+
 Add Google Image and Location API Keys to the Application settings under Properties/Settigns.settings
 
 UI design from the following source:
 
 https://www.youtube.com/watch?v=kvXbyCGObe4
 
-Screenshots
+## Screenshots
 
 ![image](https://github.com/user-attachments/assets/19338c70-9720-4bb5-b17a-726435062d0a)
 
