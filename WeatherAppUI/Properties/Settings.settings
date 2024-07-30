@@ -3,10 +3,10 @@
   <Profiles />
   <Settings>
     <Setting Name="APIKEY_LOCATION" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AIzaSyA_DVQeGcPNqwVa7kUQouXEglpJxshdRW4</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="APIKEY_IMAGES" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AIzaSyCwrelRTicpN6FI7he5-gxhBo9ZQDEhih4</Value>
+      <Value Profile="(Default)" />
     </Setting>
   </Settings>
 </SettingsFile>

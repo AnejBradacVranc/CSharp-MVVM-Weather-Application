@@ -25,7 +25,7 @@ namespace WeatherApp.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AIzaSyA_DVQeGcPNqwVa7kUQouXEglpJxshdRW4")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string APIKEY_LOCATION {
             get {
                 return ((string)(this["APIKEY_LOCATION"]));
@@ -37,7 +37,7 @@ namespace WeatherApp.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AIzaSyCwrelRTicpN6FI7he5-gxhBo9ZQDEhih4")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string APIKEY_IMAGES {
             get {
                 return ((string)(this["APIKEY_IMAGES"]));
